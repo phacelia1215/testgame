@@ -1,4 +1,3 @@
-import './styles.css';
 const W=960,H=540,canvas=document.getElementById('game'),ctx=canvas.getContext('2d');
 const ui={hp:document.getElementById('hp'),lv:document.getElementById('lv'),score:document.getElementById('score'),time:document.getElementById('time'),restart:document.getElementById('restart')};
 const ENEMIES={chicken:{name:'鶏',hp:18,spd:58,score:6,color:'#f2f0d6',accent:'#d43126',size:19},boar:{name:'猪',hp:34,spd:45,score:12,color:'#6b4738',accent:'#d9c0a0',size:24},hound:{name:'ハウンド',hp:26,spd:76,score:10,color:'#40424c',accent:'#d9d9e2',size:23},bear:{name:'クマ',hp:90,spd:32,score:35,color:'#4a3028',accent:'#c49258',size:34}};
