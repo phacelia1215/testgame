@@ -1,0 +1,1 @@
+{"scripts":{"start":"node server.js","build":"node --check src/main.js && node --check server.js","test":"node --test"},"dependencies":{},"devDependencies":{}}
